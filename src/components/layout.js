@@ -11,24 +11,16 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import "./bootstrap.min.css"
 import "./layout.css"
+import Footer from "./Reusable/Footer"
+import Navbar from "./Reusable/Navbar"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  return (
-    <div>
-      <main>{children}</main>
-    </div>
-  )
-}
+const Layout = ({ children }) => (
+  <>
+    {children}
+    <Navbar />
+    <Footer />
+  </>
+)
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
