@@ -1,12 +1,34 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo.png"
-import { FaCartArrowDown } from "react-icons/fa"
+import { FiShoppingCart } from "react-icons/Fi"
 
 export default class Navbar extends Component {
   state = {
     navbarState: false,
     navbarClass: " collapse navbar-collapse",
+    menus: [
+      {
+        id: 1,
+        text: "Menu",
+        url: "/",
+      },
+      {
+        id: 2,
+        text: "About",
+        url: "/about",
+      },
+      {
+        id: 3,
+        text: "Services",
+        url: "/services",
+      },
+      {
+        id: 4,
+        text: "Contact Us",
+        url: "/contact",
+      },
+    ],
   }
   myToggler = () => {
     this.state.navbarState
@@ -31,23 +53,26 @@ export default class Navbar extends Component {
           type="button"
           onClick={this.myToggler}
         >
-          <span className="text-white">menu</span>
+          <span className="text-dark">menu</span>
         </button>
         <div className={this.state.navbarClass}>
           <ul className="navbar-nav ml-auto mr-5">
-            <li className="nav-item ">
-              <Link to="/" className="nav-link text-white">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item ">
-              <Link to="/" className="nav-link text-white">
-                About
-              </Link>
-            </li>
+            {this.state.menus.map(menu => {
+              return (
+                <li className="nav-item ">
+                  <Link
+                    key={menu.id}
+                    to={menu.url}
+                    className="nav-link text-white"
+                  >
+                    {menu.text}
+                  </Link>
+                </li>
+              )
+            })}
             <li className="nav-item ">
               <Link to="/" className="nav-link text-white ">
-                <FaCartArrowDown className="cart-icon" />
+                <FiShoppingCart className="cart-icon" />
               </Link>
             </li>
           </ul>
