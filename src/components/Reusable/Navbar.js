@@ -21,7 +21,7 @@ export default class Navbar extends Component {
       {
         id: 3,
         text: "Services",
-        url: "/services",
+        url: "/service",
       },
       {
         id: 4,
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
           type="button"
           onClick={this.myToggler}
         >
-          <span className="text-dark">menu</span>
+          <span className="text-white">menu</span>
         </button>
         <div className={this.state.navbarClass}>
           <ul className="navbar-nav ml-auto mr-5">
