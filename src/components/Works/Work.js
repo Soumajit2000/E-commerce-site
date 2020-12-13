@@ -3,7 +3,7 @@ import React from "react"
 export default function work() {
   return (
     <div className="row">
-      <div className="col-12 col-sm-12 mx-auto">
+      <div className="col-10 col-sm-12 mx-auto">
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col">
             <div class="card">
@@ -13,10 +13,14 @@ export default function work() {
                 alt="Innovate"
               />
               <div class="card-body">
-                <h5 class="card-title">INNOVATE</h5>
+                <h5 class="card-title text-center">INNOVATE</h5>
                 <p class="card-text">
-                  Design Thinking Strategy, Technology Architecture, Digital
-                  Product
+                  <ul>
+                    <li>Design Thinking strategy</li>
+                    <li>Technology Architechture</li>
+                    <li>Digital Product Strategy</li>
+                    <li>Innovative sprints</li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -29,10 +33,14 @@ export default function work() {
                 alt="Design"
               />
               <div class="card-body">
-                <h5 class="card-title">DESIGN</h5>
+                <h5 class="card-title text-center">DESIGN</h5>
                 <p class="card-text">
-                  UI/UX Research, UI/UX Design, Brand Indentity design, Graphic
-                  Design
+                  <ul>
+                    <li>UI/UX Research</li>
+                    <li> UI/UX Design</li>
+                    <li> Brand Indentity design</li>
+                    <li>Graphic Design</li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -45,9 +53,14 @@ export default function work() {
                 alt="develop"
               />
               <div class="card-body">
-                <h5 class="card-title">DEVELOP</h5>
+                <h5 class="card-title text-center">DEVELOP</h5>
                 <p class="card-text">
-                  Web Application ,Enterprise Design ,Mobile apps ,Websites
+                  <ul>
+                    <li> Web Application</li>
+                    <li> Enterprise Design </li>
+                    <li> Mobile apps </li>
+                    <li> Websites</li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -60,10 +73,14 @@ export default function work() {
                 alt="Grow"
               />
               <div class="card-body">
-                <h5 class="card-title">GROW</h5>
+                <h5 class="card-title text-center">GROW</h5>
                 <p class="card-text">
-                  Marketing strategy, Optimization/Analysis, Interactive videos,
-                  Content Marketing`
+                  <ul>
+                    <li>Marketing strategy,</li>
+                    <li> Optimization/Analysis </li>
+                    <li> Interactive videos, </li>
+                    <li> Content Marketing</li>
+                  </ul>
                 </p>
               </div>
             </div>

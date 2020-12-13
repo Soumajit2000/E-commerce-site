@@ -15,7 +15,9 @@ const ServicePage = ({ data }) => (
       subtitle=""
       heroclass="service-background"
     />
+    <br />
     <Work />
+    <br />
   </Layout>
 )
 
