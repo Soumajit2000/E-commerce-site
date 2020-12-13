@@ -72,6 +72,16 @@ body {
   text-align: left;
   background-color: #fff;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
