@@ -8,7 +8,14 @@ export default function DualInfoblock({ heading, source }) {
       <div className="container">
         <Heading title={heading} />
         <div className="row">
-          <div className="col-8 mx-auto">
+          <div className="col-lg-8 col-md-12 mx-auto"> 
+          {/*
+            xs = Extra small <576px. Max container width None (auto)
+            sm = Small ≥576px. Max container width 540px.
+            md = Medium ≥768px. Max container width 720px.
+            lg = Large ≥992px. Max container width 960px.
+            xl = Extra large ≥1200px. Max container width 1140px. 
+          */}
             <div className="lead text-white mb-5 message">
               <p>
                 “When you grow up you tend to get told that the world is the way
@@ -42,7 +49,7 @@ export default function DualInfoblock({ heading, source }) {
               </p>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-md-12">
             <div class="card bg-dark mx-4">
               <img src={source} class="card-img-top" alt="Image goes here" />
               <div class="card-body">
