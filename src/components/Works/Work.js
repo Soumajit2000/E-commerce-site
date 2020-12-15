@@ -6,7 +6,7 @@ export default function work() {
       <div className="col-10 col-sm-12 mx-auto">
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col-md-6 col-lg-3">
-            <div class="card">
+            <div class="card grow ml-2">
               <img
                 src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 class="card-img-top"
@@ -26,7 +26,7 @@ export default function work() {
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="card">
+            <div class="card mx-2 grow">
               <img
                 src="https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 class="card-img-top"
@@ -46,7 +46,7 @@ export default function work() {
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="card">
+            <div class="card mx-2 grow">
               <img
                 src="https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 class="card-img-top"
@@ -66,7 +66,7 @@ export default function work() {
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="card">
+            <div class="card mr-2 grow">
               <img
                 src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 class="card-img-top"

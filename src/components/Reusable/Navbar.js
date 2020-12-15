@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo.png"
-import { FiShoppingCart } from "react-icons/fi"
+import { FiShoppingCart } from "react-icons/Fi"
 
 export default class Navbar extends Component {
   state = {

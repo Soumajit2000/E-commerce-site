@@ -5,15 +5,15 @@ export default function Team() {
     <div className="row">
       <div className="col-10 col-sm-10 mx-auto">
         <div class="card-group">
-          <div class="card">
+          <div class="card mx-2 my-2 ">
             <img
               src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               class="card-img-top"
               alt="Harry"
             />
-            <div class="card-body">
+            <div class="card-body border ">
               <h5 class="card-title">Harry</h5>
-              <p class="card-text">
+              <p class="card-text mx-2">
                 Harry has been working in the company for 6 years now. He
                 handles the back end of the company's website. He is a very
                 dedicated to his work and also very committed to the company.He
@@ -22,15 +22,15 @@ export default function Team() {
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card mx-2 my-2">
             <img
               src="https://images.pexels.com/photos/716411/pexels-photo-716411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               class="card-img-top"
               alt="Ronald"
             />
-            <div class="card-body">
+            <div class="card-body border">
               <h5 class="card-title">Ronald</h5>
-              <p class="card-text">
+              <p class="card-text mx-2 ">
                 Hailing from the Univerity of Oxford, Ronald, the Deputy Manager
                 started as an intern to the company. But soon cemented his
                 position in the company due to his consistent performance and
@@ -40,13 +40,13 @@ export default function Team() {
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card my-2">
             <img
               src="https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               class="card-img-top"
               alt="Angelina"
             />
-            <div class="card-body">
+            <div class="card-body border">
               <h5 class="card-title">Angelina</h5>
               <p class="card-text">
                 Her work is as elegant and flawless as her look. One of the

@@ -19,9 +19,6 @@ export default function Infoblock({ heading }) {
               This way, learning could become a habit in our daily routines – a
               true lifestyle.
             </p>
-            <Link to="/about/">
-              <button className="btn btn-warning btn-lg">{heading}</button>
-            </Link>
           </div>
         </div>
       </div>

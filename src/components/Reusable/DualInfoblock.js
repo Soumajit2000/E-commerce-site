@@ -8,8 +8,8 @@ export default function DualInfoblock({ heading, source }) {
       <div className="container">
         <Heading title={heading} />
         <div className="row">
-          <div className="col-lg-8 col-md-12 mx-auto"> 
-          {/*
+          <div className="col-lg-8 col-md-12 mx-auto">
+            {/*
             xs = Extra small <576px. Max container width None (auto)
             sm = Small ≥576px. Max container width 540px.
             md = Medium ≥768px. Max container width 720px.
@@ -42,11 +42,6 @@ export default function DualInfoblock({ heading, source }) {
                 inner voice. And most important, have the courage to follow your
                 heart and intuition.”
               </p>
-              <p>
-              " Your time is limited, so don't waste it living someone else's
-                life. Don't be trapped by dogma - which is living with the
-                results of other people's thinking."
-              </p>
             </div>
           </div>
           <div className="col-lg-4 col-md-12">
@@ -64,9 +59,6 @@ export default function DualInfoblock({ heading, source }) {
                   leaders and members; their stories and experiences have also
                   shaped our thinking.
                 </p>
-                <Link to="/" className="btn btn-warning btn-block">
-                  {heading}
-                </Link>
               </div>
             </div>
           </div>
