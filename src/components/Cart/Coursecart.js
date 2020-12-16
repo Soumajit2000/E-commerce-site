@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Heading from "../Reusable/Heading"
 import Img from "gatsby-image"
-import { node } from "prop-types"
+
 
 export default class Coursecart extends Component {
   constructor(props) {
