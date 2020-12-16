@@ -41,6 +41,15 @@
   font-family: "Fugaz One", cursive;
 }
 
+.contact-background {
+  min-height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Fugaz One", cursive;
+}
+
 .message {
   font-family: "Cinzel", serif;
 }
