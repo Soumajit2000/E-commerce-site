@@ -22,7 +22,7 @@ export default class Coursecart extends Component {
               return (
                 <div
                   key={node.id}
-                  className="col-11 col-md-6 mx-auto display-flex my-3 border"
+                  className="col-11 col-md-6 mx-auto display-flex my-3"
                 >
                   <Img fixed={node.image.fixed} />
                   <div className="flow-grow-1 px-3">
