@@ -22,7 +22,7 @@ export default class Coursecart extends Component {
               return (
                 <div
                   key={node.id}
-                  className="col-11 col-md-6 mx-auto display-flex my-2"
+                  className="col-11 col-md-6 mx-auto display-flex my-3 border"
                 >
                   <Img fixed={node.image.fixed} />
                   <div className="flow-grow-1 px-3">
@@ -35,7 +35,16 @@ export default class Coursecart extends Component {
                         {node.description.description}
                       </small>
                     </p>
-                    <button className="btn btn-warning">Join Now</button>
+                    <button
+                      data-item-id={node.id}
+                      data-item-name={node.title}
+                      data-item-price={node.price}
+                      data-item-url="https://learncodeonline.in"
+                      data-item-image={node.image.fixed.src}
+                      className="btn btn-warning snipcart-add-item"
+                    >
+                      Join Now
+                    </button>
                   </div>
                 </div>
               )
