@@ -23,7 +23,7 @@ export default class Coursecart extends Component {
                   key={node.id}
                   className="col-11 col-md-6 mx-auto display-flex my-3"
                 >
-                  <Img fixed={node.image.fixed} />
+                  <Img fixed={node.image.fixed} className="grow" />
                   <div className="flow-grow-1 px-3">
                     <div className="d-flex justify-content-between">
                       <h6 className="mb-0">{node.title}</h6>
