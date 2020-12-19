@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/Reusable/HeroSection"
 import Coursecart from "../components/Cart/Coursecart"
+import Bundlecart from "../components/Cart/Bundlecart"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = ({ data }) => (
       heroclass="hero-background"
     />
     <Coursecart courses={data.courses} />
+    <Bundlecart bundles={data.bundles} />
   </Layout>
 )
 
@@ -38,6 +40,20 @@ export const query = graphql`
           description {
             description
           }
+          image {
+            fixed(width: 200, height: 120) {
+              ...GatsbyContentfulFixed_tracedSVG
+            }
+          }
+        }
+      }
+    }
+    bundles: allContentfulBundles {
+      edges {
+        node {
+          id
+          title
+          price
           image {
             fixed(width: 200, height: 120) {
               ...GatsbyContentfulFixed_tracedSVG
